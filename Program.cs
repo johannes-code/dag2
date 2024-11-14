@@ -3,6 +3,7 @@ using System.Formats.Asn1;
 using System.Runtime.InteropServices;
 
 Library library = new Library();
+
 library.AddNewBook(new Book("Martian", "Jane Doe", new DateTime(2004, 08, 10)));
 library.AddNewBook(new Book("The Quantum Toaster", "Zack Neutron", new DateTime(2019, 03, 15)));
 library.AddNewBook(new Book("Ninja Accountants", "Sumi Ledger", new DateTime(2018, 11, 22)));
@@ -26,30 +27,56 @@ library.AddNewBook(new Book("Unicorn Rodeo: Taming Mythical Beasts", "Rainbow La
 library.AddNewBook(new Book("Time-Traveling Barber: Haircuts Through History", "Scissor Chronos", new DateTime(2022, 06, 06)));
 
 
-
-
-
+// Håndter bruker input
 bool runProgram = true;
 while (runProgram)
 {
-    //les bruker input
-    Console.WriteLine("Do you want to lend or return? for exit write exit");
+    // les av bruker input
+    Console.WriteLine("Do you want to lend or return?");
     string? userInput = Console.ReadLine();
 
+    // Vi må finne hva bruker skrev inn
+
+    // List ut tilgjengelige bøker
     if (userInput == "list")
     {
-        Console.WriteLine("Here are the available books: ");
+        Console.WriteLine("Here are available books:");
+        List<Book> availableBooks = library.ListAvailableBooks();
+
+        foreach (var book in availableBooks)
+        {
+            Console.WriteLine(book.Title);
+        }
     }
+    // For å låne en bok (lend)
     else if (userInput == "lend")
     {
+        Console.WriteLine("What is the title of the book?");
+        string? wantedBookTitle = Console.ReadLine();
 
-        Console.WriteLine("Lending a book");
+        if (wantedBookTitle == null)
+        {
+            continue; // Start hoved løkken på nytt
+        }
+
+        Book? book = library.LendBook(wantedBookTitle);
+
+        // Det kan hend biblioteket ikke hadde boken vår
+        if (book == null)
+        {
+            Console.WriteLine("No book with title found: " + wantedBookTitle);
+        }
+        else
+        {
+            Console.WriteLine("Lending book: " + book.Title);
+        }
     }
-
+    // For å lever tilbake en bok (return)
     else if (userInput == "return")
     {
         Console.WriteLine("Returning a book");
     }
+    // For å avslutte (exit)
     else if (userInput == "exit")
     {
         runProgram = false;
