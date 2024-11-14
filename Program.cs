@@ -45,7 +45,36 @@ library.AddNewBook(new Book("Snowy Serenity: Meditation for Monsters", "Stretch 
 library.AddNewBook(new Book("Silent Conquest Strategies", "Quiet Overlord", new DateTime(2020, 04, 04)));
 library.AddNewBook(new Book("Magical Rodeo Skills for Beginners", "Rainbow Lasso", new DateTime(2018, 03, 17)));
 library.AddNewBook(new Book("Retro Haircuts for Future Humans", "Scissor Chronos", new DateTime(2023, 11, 23)));
-
+library.AddNewBook(new Book("Whiskers in the Moonlight", "Tom Cat", new DateTime(1843, 05, 12)));
+library.AddNewBook(new Book("Bark Code: Canine Secrets", "Rex Shepherd", new DateTime(1912, 11, 23)));
+library.AddNewBook(new Book("Feathered Rebellion", "Eagle Wing", new DateTime(1776, 07, 04)));
+library.AddNewBook(new Book("Silent Paws", "Wolf Shadow", new DateTime(1654, 09, 17)));
+library.AddNewBook(new Book("Scales of Destiny", "Drake Serpent", new DateTime(1599, 03, 21)));
+library.AddNewBook(new Book("Midnight Howl", "Luna Wolf", new DateTime(1845, 12, 31)));
+library.AddNewBook(new Book("Coral Whispers", "Fish Fin", new DateTime(1702, 06, 15)));
+library.AddNewBook(new Book("Antler Chronicles", "Deer Runner", new DateTime(1876, 02, 28)));
+library.AddNewBook(new Book("Purr-fect Strategy", "Kitty Whisker", new DateTime(1901, 04, 05)));
+library.AddNewBook(new Book("Wings of Wisdom", "Hawk Eye", new DateTime(1823, 10, 11)));
+library.AddNewBook(new Book("Serpent's Riddle", "Python Scale", new DateTime(1667, 08, 19)));
+library.AddNewBook(new Book("Rabbit's Revolution", "Hop Ears", new DateTime(1789, 07, 14)));
+library.AddNewBook(new Book("Elephant Memory", "Trunk Wisdom", new DateTime(1856, 01, 30)));
+library.AddNewBook(new Book("Fox Fire Tactics", "Sly Brush", new DateTime(1732, 05, 07)));
+library.AddNewBook(new Book("Dolphin's Dream", "Wave Rider", new DateTime(1888, 11, 05)));
+library.AddNewBook(new Book("Bear's Ballad", "Grizzly Paw", new DateTime(1615, 12, 25)));
+library.AddNewBook(new Book("Owl's Midnight Manuscript", "Night Feather", new DateTime(1742, 03, 16)));
+library.AddNewBook(new Book("Lion's Legacy", "Mane King", new DateTime(1681, 06, 22)));
+library.AddNewBook(new Book("Zebra's Crossing", "Stripe Walker", new DateTime(1907, 09, 03)));
+library.AddNewBook(new Book("Penguin's Polar Prophecy", "Ice Flipper", new DateTime(1834, 01, 15)));
+library.AddNewBook(new Book("Mongoose Mysteries", "Tail Striker", new DateTime(1879, 07, 29)));
+library.AddNewBook(new Book("Chameleon's Camouflage", "Color Shift", new DateTime(1763, 04, 18)));
+library.AddNewBook(new Book("Beaver's Blueprint", "Dam Builder", new DateTime(1892, 10, 07)));
+library.AddNewBook(new Book("Jaguar's Journey", "Spot Runner", new DateTime(1671, 11, 11)));
+library.AddNewBook(new Book("Squirrel's Secret Society", "Nut Keeper", new DateTime(1745, 08, 03)));
+library.AddNewBook(new Book("Octopus Odyssey", "Tentacle Master", new DateTime(1816, 05, 20)));
+library.AddNewBook(new Book("Camel's Caravan", "Desert Stride", new DateTime(1687, 02, 14)));
+library.AddNewBook(new Book("Peacock's Pride", "Feather Dancer", new DateTime(1923, 06, 10)));
+library.AddNewBook(new Book("Koala's Conspiracy", "Eucalyptus Whisperer", new DateTime(1901, 12, 07)));
+library.AddNewBook(new Book("Sloth's Slow Revolution", "Hang Master", new DateTime(1865, 03, 03)));
 // Håndter bruker input
 bool runProgram = true;
 while (runProgram)
