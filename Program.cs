@@ -75,6 +75,26 @@ library.AddNewBook(new Book("Camel's Caravan", "Desert Stride", new DateTime(168
 library.AddNewBook(new Book("Peacock's Pride", "Feather Dancer", new DateTime(1923, 06, 10)));
 library.AddNewBook(new Book("Koala's Conspiracy", "Eucalyptus Whisperer", new DateTime(1901, 12, 07)));
 library.AddNewBook(new Book("Sloth's Slow Revolution", "Hang Master", new DateTime(1865, 03, 03)));
+library.AddNewBook(new Book("Sagaen om Ragnars Sønner", "Bjørn Jernside", new DateTime(872, 05, 15)));
+library.AddNewBook(new Book("Odins Visdom", "Snorre Gode", new DateTime(890, 11, 22)));
+library.AddNewBook(new Book("Havets Konger", "Leif den Heldige", new DateTime(911, 07, 03)));
+library.AddNewBook(new Book("Skaldenes Sang", "Egil Skallagrimsson", new DateTime(850, 03, 19)));
+library.AddNewBook(new Book("Tors Hammer", "Harald Hårfagre", new DateTime(885, 09, 08)));
+library.AddNewBook(new Book("Valkyrienes Dans", "Gudrid Torbjørnsdatter", new DateTime(930, 06, 25)));
+library.AddNewBook(new Book("Midgardsormen Vågner", "Erik den Røde", new DateTime(975, 02, 14)));
+library.AddNewBook(new Book("Yggdrasils Grener", "Håkon den Gode", new DateTime(920, 12, 01)));
+library.AddNewBook(new Book("Skjoldmøens Ære", "Aud den Dyptenkende", new DateTime(895, 08, 17)));
+library.AddNewBook(new Book("Ragnaroks Komme", "Olav Tryggvason", new DateTime(995, 04, 30)));
+library.AddNewBook(new Book("Runenes Makt", "Gunnhild Kongsmor", new DateTime(960, 10, 11)));
+library.AddNewBook(new Book("Fenrisulvens Hyl", "Svein Tveskjegg", new DateTime(988, 01, 06)));
+library.AddNewBook(new Book("Mjødets Hemmeligheter", "Kveldulf Bjalvason", new DateTime(870, 07, 22)));
+library.AddNewBook(new Book("Jotunheimens Skatter", "Rollo av Normandie", new DateTime(911, 05, 09)));
+library.AddNewBook(new Book("Frøyas Tårer", "Tora Borgarhjort", new DateTime(935, 11, 16)));
+library.AddNewBook(new Book("Einherjerenes Fest", "Sigurd Jorsalfar", new DateTime(1040, 03, 25)));
+library.AddNewBook(new Book("Bifrost Bro", "Halldor den Kristne", new DateTime(1000, 09, 03)));
+library.AddNewBook(new Book("Nornenes Vev", "Åsa den Vise", new DateTime(950, 06, 12)));
+library.AddNewBook(new Book("Berserkergang", "Sverre Sigurdsson", new DateTime(1145, 02, 20)));
+library.AddNewBook(new Book("Mimers Brønn", "Snorre Sturlason", new DateTime(1178, 01, 07)));
 // Håndter bruker input
 bool runProgram = true;
 while (runProgram)
