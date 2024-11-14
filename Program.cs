@@ -25,6 +25,44 @@ library.AddNewBook(new Book("Yeti Yoga", "Stretch Snowman", new DateTime(2016, 1
 library.AddNewBook(new Book("The Introvert's Guide to World Domination", "Quiet Overlord", new DateTime(2023, 01, 01)));
 library.AddNewBook(new Book("Unicorn Rodeo: Taming Mythical Beasts", "Rainbow Lasso", new DateTime(2019, 07, 04)));
 library.AddNewBook(new Book("Time-Traveling Barber: Haircuts Through History", "Scissor Chronos", new DateTime(2022, 06, 06)));
+library.AddNewBook(new Book("The Quantum Toaster", "Zack Neutron", new DateTime(2019, 03, 15)));
+library.AddNewBook(new Book("Quantum Sock Conspiracy", "Zack Neutron", new DateTime(2020, 07, 22)));
+library.AddNewBook(new Book("Ninja Accountants", "Sumi Ledger", new DateTime(2018, 11, 22)));
+library.AddNewBook(new Book("Spreadsheet Samurai", "Sumi Ledger", new DateTime(2021, 04, 11)));
+library.AddNewBook(new Book("Dinosaurs in Space", "Rex Stardust", new DateTime(2020, 07, 01)));
+library.AddNewBook(new Book("Asteroid Rodeo Champions", "Rex Stardust", new DateTime(2022, 01, 30)));
+library.AddNewBook(new Book("The Procrastinator's Guide to Time Travel", "Lazy Einstein", new DateTime(2022, 12, 31)));
+library.AddNewBook(new Book("Deadline Dodging for Dummies", "Lazy Einstein", new DateTime(2023, 05, 17)));
+library.AddNewBook(new Book("Zombie Etiquette", "Brains Manners", new DateTime(2017, 10, 31)));
+library.AddNewBook(new Book("Undead Dinner Party Protocols", "Brains Manners", new DateTime(2019, 09, 13)));
+library.AddNewBook(new Book("Cooking with Lava", "Magma Chef", new DateTime(2021, 05, 18)));
+library.AddNewBook(new Book("Volcanic Kitchen Disasters", "Magma Chef", new DateTime(2022, 08, 25)));
+library.AddNewBook(new Book("The Invisible Man's Fashion Tips", "See-Through Stylist", new DateTime(2016, 02, 29)));
+library.AddNewBook(new Book("Transparent Wardrobe Secrets", "See-Through Stylist", new DateTime(2018, 06, 14)));
+library.AddNewBook(new Book("Intergalactic Food Truck Wars", "Nebula Noms", new DateTime(2023, 08, 08)));
+library.AddNewBook(new Book("Cosmic Cuisine Battles", "Nebula Noms", new DateTime(2021, 11, 20)));
+library.AddNewBook(new Book("Underwater Disco Dancing", "Coral Grooves", new DateTime(2015, 06, 15)));
+library.AddNewBook(new Book("Aquatic Boogie Techniques", "Coral Grooves", new DateTime(2017, 09, 03)));
+library.AddNewBook(new Book("Telekinetic Knitting", "Psychic Purls", new DateTime(2020, 11, 11)));
+library.AddNewBook(new Book("Mind-Bending Crochet Strategies", "Psychic Purls", new DateTime(2022, 03, 27)));
+library.AddNewBook(new Book("The Art of Dragon Dentistry", "Fang Floss", new DateTime(2019, 04, 01)));
+library.AddNewBook(new Book("Mythical Molar Maintenance", "Fang Floss", new DateTime(2021, 02, 14)));
+library.AddNewBook(new Book("Extreme Ironing on Mount Everest", "Press Summit", new DateTime(2018, 05, 29)));
+library.AddNewBook(new Book("Alpine Wrinkle Elimination Techniques", "Press Summit", new DateTime(2020, 09, 05)));
+library.AddNewBook(new Book("Alien's Guide to Human Mating Rituals", "Zorp Confused", new DateTime(2022, 02, 14)));
+library.AddNewBook(new Book("Interstellar Dating for Dummies", "Zorp Confused", new DateTime(2023, 06, 21)));
+library.AddNewBook(new Book("Breakdancing for Seniors", "Hip Pop", new DateTime(2017, 09, 21)));
+library.AddNewBook(new Book("Geriatric Groove Masters", "Hip Pop", new DateTime(2019, 12, 07)));
+library.AddNewBook(new Book("Vampire Veganism", "Count Carrot", new DateTime(2021, 10, 13)));
+library.AddNewBook(new Book("Bloodless Botanical Diet", "Count Carrot", new DateTime(2022, 04, 01)));
+library.AddNewBook(new Book("Pirate Programming: Coding on the High Seas", "Captain JavaScript", new DateTime(2020, 09, 19)));
+library.AddNewBook(new Book("Nautical Debugging Techniques", "Captain JavaScript", new DateTime(2021, 07, 16)));
+library.AddNewBook(new Book("Yeti Yoga", "Stretch Snowman", new DateTime(2016, 12, 01)));
+library.AddNewBook(new Book("Himalayan Flexibility Secrets", "Stretch Snowman", new DateTime(2018, 08, 23)));
+library.AddNewBook(new Book("The Introvert's Guide to World Domination", "Quiet Overlord", new DateTime(2023, 01, 01)));
+library.AddNewBook(new Book("Silent Conquest Strategies", "Quiet Overlord", new DateTime(2024, 02, 14)));
+library.AddNewBook(new Book("Unicorn Rodeo: Taming Mythical Beasts", "Rainbow Lasso", new DateTime(2019, 07, 04)));
+library.AddNewBook(new Book("Magical Creature Wrangling 101", "Rainbow Lasso", new DateTime(2021, 05, 30)));
 
 
 // Håndter bruker input
